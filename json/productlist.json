@@ -1,0 +1,266 @@
+{
+	"Status": 1,
+	"Mssage": "成功",
+	"Data": {
+		"List": [
+			{
+				"ProductName": "fanqie",
+				"className": "fanqieCoLor",
+				"classify": [
+					{
+						"type": "盒装",
+						"Product": [
+							{
+								"Img":"fanqiemianHe.png"	
+							}, 
+							{
+								"Img":"fanqiemianXiang.png"
+							}
+						],
+						"ProductID":"CF0005_D",
+						"name":"迎面养生&nbsp;&bull;&nbsp;番茄迎面",
+						"spec":"5包／盒|300g／包",
+						"DetailsImg":"fanqieDetails.png",
+						"price":"100",
+						"unit":"盒",
+						"Other":[
+							{"Img":"zishupic.png","name":"紫薯赢面 ","Class":"zishu","ProID":"CF0006_D","ProductName":"zishu"},
+							{"Img":"heimaipic.png","name":"黑麦赢面  ","Class":"heimai","ProID":"CF0060_D","ProductName":"heimai"},
+							{"Img":"nanguapic.png","name":"南瓜赢面  ","Class":"nangua","ProID":"CF0062_D","ProductName":"nangua"},
+							{"Img":"yingdoupic.png","name":"鹰豆赢面 ","Class":"yingdou","ProID":"CF0003_D","ProductName":"yingdou"}
+						]
+					}, 
+					{
+						"type": "箱装",
+						"Product": [
+							{
+								"Img":"fanqiemianHe.png"	
+							}, 
+							{
+								"Img":"fanqiemianXiang.png"
+							}
+						],
+						"ProductID":"CF0005",
+						"name":"迎面养生&nbsp;&bull;&nbsp;番茄迎面",
+						"spec":"5包／盒|300g／包",
+						"DetailsImg":"fanqieDetails.png",
+						"price":"600",
+						"unit":"箱",
+						"Other":[
+							{"Img":"zishupic.png","name":"紫薯赢面 ","Class":"zishu","ProID":"CF0006","ProductName":"zishu"},
+							{"Img":"heimaipic.png","name":"黑麦赢面  ","Class":"heimai","ProID":"CF0060","ProductName":"heimai"},
+							{"Img":"nanguapic.png","name":"南瓜赢面  ","Class":"nangua","ProID":"CF0062","ProductName":"nangua"},
+							{"Img":"yingdoupic.png","name":"鹰豆赢面 ","Class":"yingdou","ProID":"CF0003","ProductName":"yingdou"}
+						]
+					}
+				]
+			},
+			{
+				"ProductName": "yingdou",
+				"className": "yingdouCoLor",
+				"classify": [
+					{
+						"type": "盒装",
+						"Product": [
+							{
+								"Img":"yingdouHe.png"	
+							}, 
+							{
+								"Img":"yingdouXiang.png"
+							}
+						],
+						"ProductID":"CF0003_D",
+						"name":"迎面养生&nbsp;&bull;&nbsp;鹰豆迎面",
+						"spec":"5包／盒|300g／包",
+						"DetailsImg":"yingdouDetails.png",
+						"price":"100",
+						"unit":"盒",
+						"Other":[
+							{"Img":"zishupic.png","name":"紫薯赢面 ","Class":"zishu","ProID":"CF0006_D","ProductName":"zishu"},
+							{"Img":"heimaipic.png","name":"黑麦赢面  ","Class":"heimai","ProID":"CF0060_D","ProductName":"heimai"},
+							{"Img":"nanguapic.png","name":"南瓜赢面  ","Class":"nangua","ProID":"CF0062_D","ProductName":"nangua"},
+							{"Img":"fanqiepic.png","name":"番茄赢面  ","Class":"fanqie","ProID":"CF0005_D","ProductName":"fanqie"}
+						]
+					}, 
+					{
+						"type": "箱装",
+						"Product": [
+							{
+								"Img":"yingdouXiang.png"	
+							}, 
+							{
+								"Img":"yingdouHe.png"
+							}
+						],
+						"ProductID":"CF0003",
+						"name":"迎面养生&nbsp;&bull;&nbsp;鹰豆迎面",
+						"spec":"5包／盒|300g／包",
+						"DetailsImg":"yingdouDetails.png",
+						"price":"600",
+						"unit":"箱",
+						"Other":[
+							{"Img":"zishupic.png","name":"紫薯赢面 ","Class":"zishu","ProID":"CF0006","ProductName":"zishu"},
+							{"Img":"heimaipic.png","name":"黑麦赢面  ","Class":"heimai","ProID":"CF0060","ProductName":"heimai"},
+							{"Img":"nanguapic.png","name":"南瓜赢面  ","Class":"nangua","ProID":"CF0062","ProductName":"nangua"},
+							{"Img":"fanqiepic.png","name":"番茄赢面  ","Class":"fanqie","ProID":"CF0005","ProductName":"fanqie"}
+						]
+					}
+				]
+			},
+			{
+				"ProductName": "heimai",
+				"className": "heimaiCoLor",
+				"classify": [
+					{
+						"type": "盒装",
+						"Product": [
+							{
+								"Img":"heimaiHe.png"	
+							}, 
+							{
+								"Img":"heimaiXiang.png"
+							}
+						],
+						"ProductID":"CF0060_D",
+						"name":"迎面养生&nbsp;&bull;&nbsp;黑麦赢面",
+						"spec":"5包／盒|300g／包",
+						"DetailsImg":"heimaiDetails.png",
+						"price":"100",
+						"unit":"盒",
+						"Other":[
+							{"Img":"zishupic.png","name":"紫薯赢面 ","Class":"zishu","ProID":"CF0006_D","ProductName":"zishu"},
+							{"Img":"fanqiepic.png","name":"番茄赢面  ","Class":"fanqie","ProID":"CF0005_D","ProductName":"fanqie"},
+							{"Img":"nanguapic.png","name":"南瓜赢面  ","Class":"nangua","ProID":"CF0062_D","ProductName":"nangua"},
+							{"Img":"yingdoupic.png","name":"鹰豆赢面   ","Class":"yingdou","ProID":"CF0003_D","ProductName":"yingdou"}
+						]
+					}, 
+					{
+						"type": "箱装",
+						"Product": [
+							{
+								"Img":"heimaiXiang.png"	
+							}, 
+							{
+								"Img":"heimaiHe.png"
+							}
+						],
+						"ProductID":"CF0060",
+						"name":"迎面养生&nbsp;&bull;&nbsp;黑麦赢面",
+						"spec":"5包／盒|300g／包",
+						"DetailsImg":"heimaiDetails.png",
+						"price":"600",
+						"unit":"箱",
+						"Other":[
+							{"Img":"zishupic.png","name":"紫薯赢面 ","Class":"zishu","ProID":"CF0006","ProductName":"zishu"},
+							{"Img":"fanqiepic.png","name":"番茄赢面  ","Class":"fanqie","ProID":"CF0005","ProductName":"fanqie"},
+							{"Img":"nanguapic.png","name":"南瓜赢面  ","Class":"nangua","ProID":"CF0062","ProductName":"nangua"},
+							{"Img":"yingdoupic.png","name":"鹰豆赢面   ","Class":"yingdou","ProID":"CF0003","ProductName":"yingdou"}
+						]
+					}
+				]
+			},{
+				"ProductName": "nangua",
+				"className": "nanguaCoLor",
+				"classify": [
+					{
+						"type": "盒装",
+						"Product": [
+							{
+								"Img":"nanguaHe.png"	
+							}, 
+							{
+								"Img":"nanguaXiang.png"
+							}
+						],
+						"ProductID":"CF0062_D",
+						"name":"迎面养生&nbsp;&bull;&nbsp;南瓜赢面",
+						"spec":"5包／盒|300g／包",
+						"price":"100",
+						"DetailsImg":"nanguaDetails.png",
+						"unit":"盒",
+						"Other":[
+							{"Img":"fanqiepic.png","name":"番茄赢面  ","Class":"fanqie","ProID":"CF0005_D","ProductName":"fanqie"},
+							{"Img":"heimaipic.png","name":"黑麦赢面  ","Class":"heimai","ProID":"CF0060_D","ProductName":"heimai"},
+							{"Img":"zishupic.png","name":"紫薯赢面 ","Class":"zishu","ProID":"CF0006_D","ProductName":"zishu"},
+							{"Img":"yingdoupic.png","name":"鹰豆赢面   ","Class":"yingdou","ProID":"CF0003_D","ProductName":"yingdou"}
+						]
+					}, 
+					{
+						"type": "箱装",
+						"Product": [
+							{
+								"Img":"nanguaXiang.png"	
+							}, 
+							{
+								"Img":"nanguaHe.png"
+							}
+						],
+						"ProductID":"CF0062",
+						"name":"迎面养生&nbsp;&bull;&nbsp;南瓜赢面",
+						"spec":"5包／盒|300g／包",
+						"price":"600",
+						"unit":"箱",
+						"DetailsImg":"nanguaDetails.png",
+						"Other":[						
+							{"Img":"fanqiepic.png","name":"番茄赢面  ","Class":"fanqie","ProID":"CF0005","ProductName":"fanqie"},
+							{"Img":"heimaipic.png","name":"黑麦赢面  ","Class":"heimai","ProID":"CF0060","ProductName":"heimai"},
+							{"Img":"zishupic.png","name":"紫薯赢面 ","Class":"zishu","ProID":"CF0006","ProductName":"zishu"},
+							{"Img":"yingdoupic.png","name":"鹰豆赢面   ","Class":"yingdou","ProID":"CF0003","ProductName":"yingdou"}
+						]
+					}
+				]
+			},{
+				"ProductName": "zishu",
+				"className": "zishuCoLor",
+				"classify": [
+					{
+						"type": "盒装",
+						"Product": [
+							{
+								"Img":"zishuHe.png"	
+							}, 
+							{
+								"Img":"zishuXiang.png"
+							}
+						],
+						"ProductID":"CF0006_D",
+						"name":"迎面养生&nbsp;&bull;&nbsp;紫薯赢面",
+						"spec":"5包／盒|300g／包",
+						"price":"100",
+						"DetailsImg":"zishuDetails.png",
+						"unit":"盒",
+						"Other":[
+							{"Img":"fanqiepic.png","name":"番茄赢面  ","Class":"fanqie","ProID":"CF0005_D","ProductName":"fanqie"},
+							{"Img":"heimaipic.png","name":"黑麦赢面  ","Class":"heimai","ProID":"CF0060_D","ProductName":"heimai"},
+							{"Img":"nanguapic.png","name":"南瓜赢面  ","Class":"nangua","ProID":"CF0062_D","ProductName":"nangua"},
+							{"Img":"yingdoupic.png","name":"鹰豆赢面   ","Class":"yingdou","ProID":"CF0003_D","ProductName":"yingdou"}
+						]
+					}, 
+					{
+						"type": "箱装",
+						"Product": [
+							{
+								"Img":"zishuXiang.png"	
+							}, 
+							{
+								"Img":"zishuHe.png"
+							}
+						],
+						"ProductID":"CF0006",
+						"name":"迎面养生&nbsp;&bull;&nbsp;紫薯赢面",
+						"spec":"5包／盒|300g／包",
+						"price":"600",
+						"DetailsImg":"zishuDetails.png",
+						"unit":"箱",
+						"Other":[
+							{"Img":"fanqiepic.png","name":"番茄赢面  ","Class":"fanqie","ProID":"CF0005","ProductName":"fanqie"},
+							{"Img":"heimaipic.png","name":"黑麦赢面  ","Class":"heimai","ProID":"CF0060","ProductName":"heimai"},
+							{"Img":"nanguapic.png","name":"南瓜赢面  ","Class":"nangua","ProID":"CF0062","ProductName":"nangua"},
+							{"Img":"yingdoupic.png","name":"鹰豆赢面   ","Class":"yingdou","ProID":"CF0003","ProductName":"yingdou"}
+						]
+					}
+				]
+			}
+		]
+	}
+}

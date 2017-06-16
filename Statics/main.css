@@ -1,0 +1,5 @@
+@charset "utf-8";
+/* CSS Document */
+body,html{background-color:#f2f2f2;}
+footer{height: 0.98rem;line-height:0.98rem; background-color:#e5e5e5; font-size:0.26rem; color:#898989; text-align:center}
+footer::after,footer::before{content:''; width:0.25rem;height:0.02rem; position:relative; top:-0.1rem; background-color:#707070; margin: 0 0.27rem; display:inline-block;}

@@ -1,0 +1,97 @@
+<!doctype html>
+<html>
+	<!-- InstanceBegin template="/Templates/Main.dwt" codeOutsideHTMLIsLocked="false" -->
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+		<!-- InstanceBeginEditable name="doctitle" -->
+		<title>添加地址</title>
+		<!-- InstanceEndEditable -->
+		<!--标准mui.css-->
+		<link rel="stylesheet" href="../Statics/mui.min.css" />
+		<!--App自定义的css-->
+		<link href="../Statics/mui.picker.css" rel="stylesheet" />
+		<link href="../Statics/mui.poppicker.css" rel="stylesheet" />
+		<link href="../Statics/reset.css" rel="stylesheet" type="text/css" />
+		<script type="text/javascript" src="../StaticsJS/resizerem.js"></script>
+		<script type="text/javascript" src="../StaticsJS/zepto.min.js"></script>
+		<link href="../Statics/main.css" rel="stylesheet" type="text/css" />
+		<!-- InstanceBeginEditable name="head" -->
+		<link href="../Statics/addressManage.css" rel="stylesheet" type="text/css">
+		<script src="../StaticsJS/addressManage.js" type="text/javascript"></script>
+		<!-- InstanceEndEditable -->
+	</head>
+
+	<body>
+		<!--模板页头部只能在Main.dwt里面修改-->
+		<header></header>
+		<!-- InstanceBeginEditable name="demo" -->
+		<div class="warp">
+			<span>收货人</span>
+			<input type="text" placeholder="姓名" value="" />
+		</div>
+		<div class="warp">
+			<span>联系电话</span>
+			<input type="number" placeholder="手机或固定电话" value="" />
+		</div>
+		<div class="warp" id="showCityPicker3">
+			<span>所在地区</span>
+			<p id="cityResult3"></p>
+			<em></em>
+		</div>
+		<div class="warp">
+			<span>详细地址</span>
+			<textarea rows="4" cols="50" placeholder="请填写详细地址，不少于5个字"></textarea>
+		</div>
+		<div id="default" class="warp" style="justify-content: space-between; display: block;">
+			<span style="float: left;">设为默认</span>
+			<b class=""><i></i></b>
+		</div>
+
+		<a class="Save" href="goodsAddress.html">保存</a>
+		<a href="javascript:">删除收货地址</a>
+		<a href="Index.html">取消</a>
+
+		<!-- InstanceEndEditable -->
+		<!--模板页底部只能在Main.dwt里面修改-->
+		<footer>
+			安全·营养·口感食安定制食品
+		</footer>
+		<script type="text/javascript" src="../StaticsJS/mui.min.js"></script>
+		<script type="text/javascript" src="../StaticsJS/mui.poppicker.js"></script>
+		<script type="text/javascript" src="../StaticsJS/mui.picker.js"></script>
+		<script src="../StaticsJS/city.data-3.js" type="text/javascript" charset="utf-8"></script>
+		<script>
+			(function(mui, doc) {
+
+				mui.init();
+
+				mui.ready(function() {
+					
+					var _getParam = function(obj, param) {
+						return obj[param] || '';
+					};
+					//3级联示例
+					var cityPicker3 = new mui.PopPicker({
+						layer: 3
+					});
+					cityPicker3.setData(cityData3);
+					var showCityPickerButton = doc.getElementById('showCityPicker3');
+					var cityResult3 = doc.getElementById('cityResult3');
+					showCityPickerButton.addEventListener('tap', function(event) {
+						cityPicker3.show(function(items) {
+							cityResult3.innerText = _getParam(items[0], 'text') + " " + _getParam(items[1], 'text') + " " + _getParam(items[2], 'text');
+							//返回 false 可以阻止选择框的关闭
+							//return false;
+						});
+					}, false);
+
+				});
+			})(mui, document);
+		</script>
+
+	</body>
+	<!-- InstanceEnd -->
+
+</html>

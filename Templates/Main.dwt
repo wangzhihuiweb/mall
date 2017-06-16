@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+<!-- TemplateBeginEditable name="doctitle" -->
+<!-- TemplateEndEditable -->
+<link href="../Statics/reset.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../StaticsJS/resizerem.js"></script>
+<script type="text/javascript" src="../StaticsJS/zepto.min.js"></script>
+<link href="../Statics/main.css" rel="stylesheet" type="text/css"/>
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+</head>
+
+<body>
+<!--模板页头部只能在Main.dwt里面修改-->
+<header></header>
+<!-- TemplateBeginEditable name="demo" -->
+<!-- TemplateEndEditable -->
+<!--模板页底部只能在Main.dwt里面修改-->
+<footer>
+	安全·营养·口感食安定制食品
+</footer>
+</body>
+</html>

@@ -1,0 +1,130 @@
+@charset "utf-8";
+
+/* CSS Document */
+.newAdd {
+	display: block;
+	background: #FFFFFF;
+	height: 1.37rem;
+	margin-bottom: 0.18rem;
+}
+
+.newAdd span {
+	height: 1.37rem;
+	line-height: 1.37rem;
+	padding-left: 0.35rem;
+	float: left;
+	color: #000000;
+	font-size: 0.34rem;
+}
+
+.newAdd span:before {
+	width: 0.36rem;
+	height: 0.36rem;
+	position: relative;
+	top: 0.03rem;
+	background: url(../images/newAdd1.png) no-repeat center center;
+	background-size: 100% 100%;
+	content: '';
+	display: inline-block;
+	margin-right: 0.3rem;
+}
+
+.newAdd em {
+	width: 0.17rem;
+	height: 0.3rem;
+	background: url(../images/Arrow2.png) no-repeat center center;
+	background-size: 100% 100%;
+	float: right;
+	margin-right: 0.3rem;
+	margin-top: 0.55rem;
+}
+.addressList{
+	overflow: hidden;
+	clear: both;
+	margin-bottom: 0.18rem;
+}
+.addressList div{
+	clear: both;
+	padding-left: 0.36rem;
+	padding-right: 0.36rem;
+	background: #FFFFFF;
+}
+
+.addressList div:nth-child(1){
+	padding-top: 0.2rem;
+	
+}
+.addressList div:nth-child(1) p{
+	height: 0.38rem;	
+}
+.addressList div:nth-child(1) p span,.addressList div:nth-child(1) p b{
+	float: left;
+	line-height: 0.38rem;
+	font-size: 0.32rem;
+	color: #000000;
+	font-weight: normal;
+}
+.addressList div:nth-child(1) p b{
+	float: right;
+}
+
+.addressList div:nth-child(1) h3{
+	padding-top: 0.2rem;
+	font-size: 0.32rem;
+	color: #000000;
+	padding-bottom: 0.2rem;
+	line-height: inherit;
+}
+
+.addressList div:nth-child(2){
+	height: 0.61rem;
+	border-top:1px solid #f2f2f2;
+}
+.addressList div:nth-child(2) b{
+	color: #df0606;
+	float: left;
+	font-size: 0.26rem;
+	font-weight: normal;
+	height: 0.61rem;
+	line-height: 0.61rem;
+}
+.addressList div:nth-child(2) b::before{
+	content: "";
+	width: 0.3rem;
+	height: 0.3rem;
+	display: inline-block;
+	background: url(../images/nopitchon.png) no-repeat center center;
+	background-size:100% 100%;
+	margin-right:0.12rem;
+	position: relative;
+	top: 0.06rem;
+}
+.addressList div:nth-child(2) b.light::before{
+	background: url(../images/pitchon.png) no-repeat center center;
+	background-size:100% 100%;
+}
+
+.addressList div:nth-child(2) span{
+	float: right;
+	margin-left: 0.44rem;
+	color: #999999;
+	font-size: 0.26rem;
+	height: 0.61rem;
+	line-height: 0.61rem;
+}
+.addressList div:nth-child(2) span::before{
+	width: 0.32rem;
+	content: "";
+	height: 0.32rem;
+	display: inline-block;
+	background: url(../images/editicon.png) no-repeat center center;
+	background-size:100% 100%;
+	margin-right:0.1rem;
+	position: relative;
+	top: 0.06rem;
+}
+
+.addressList div:nth-child(2) span.deleteicon::before{
+	background: url(../images/deleteicon.png) no-repeat center center;
+	background-size:100% 100%;
+}
